@@ -1,0 +1,2 @@
+To generate the PDF of this songbook, get LaTeX and run the command below
+pdftex Antigua.tex
