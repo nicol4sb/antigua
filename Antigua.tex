@@ -5,22 +5,29 @@
 
 %\noversenumbers
 
+\newindex{titleidx}{index_des_chansons}
+\newauthorindex{authidx}{index_des_auteurs}
+
+
 \begin{document}
 
 \begin{titlepage}
    \vspace*{\stretch{1.0}}
    \begin{center}
       \Huge\textbf{The Antigua songbook}\\
-      \Large\textit{Vaga, Sylvestre, Cruising Bird}
+      \Large\textit{Vaga, Sylvestre, Mia, Cruising Bird}
    \end{center}
    \vspace*{\stretch{2.0}}
 \end{titlepage}
-\songsection{Chanson française}
+
+\showindex{Index des chansons}{titleidx}
+\showindex{Index des auteurs}{authidx}
 
 \begin{songs}{}
-\linespread{0.1}
 
-\beginsong{Il est libre Max}[by={Hervé Christiani},sr={Lolo solo}]
+%\songsection{Chanson française}
+
+\beginsong{Il est libre Max}[by={Hervé Christiani},sr={Lolo solo},index={Il est libre Max}]]
 
 \beginverse
 \gtab{Em}{022000} \gtab{C}{032010}\gtab{D}{000232}
@@ -68,6 +75,8 @@ Pour avoir comme lui autant d'amour dans l'regard
 \endsong
 
 \beginsong{La cabane du pêcheur}[by={Francis Cabrel},sr={demandé par Sophie}]
+
+\gtab{E}{022100} \gtab{B7/4}{0:022202} \gtab{C#m}{4:113321} \gtab{F#m}{2:133211}
 \beginverse
 \[E]Le soir \[B7/4]tombait de tout son \[E]poids \[B7/4]
 \[E]Au dess\[B7/4]us de la ri\[E]vière \[B7/4]
@@ -77,24 +86,26 @@ On ne voyait plus \[A]que  \[E]du \[B7/4]feu
 \[E]La tête aille\[B7/4]urs dans ses \[E]prières \[B7/4]
 \[C#m]Il m'a semblé \[B]voir trop briller \[A]ses yeux
 
-Huuumm  -- Je lui  \[B7/4] ai dit     \[E]     \[B7/4]
-E Si tu p \[B7/4] leures pour\[E] un garçon \[B7/4]
-E Tu seras \[B7/4]  pas la der\[E]nière \[B7/4]
-\[C#m] Souvent les poi B ssons sont bien pl A  us affectueux
-E Va faire un petit t \[B7/4] our, respir\[E]e le grand a \[B7/4]  ir
-\[C#m] Après je te parlerai de l'am B  our
-Si je me souviens un peu  A
+Huuumm  -- Je lui  \[B7/4] ai dit  \[E] \[B7/4]
+\[E]Si tu p\[B7/4]leures pour\[E] un garçon \[B7/4]
+\[E]Tu seras \[B7/4]  pas la der\[E]nière \[B7/4]
+\[C#m]Souvent les \[B]poissons sont bien pl\[A]  us affectueux
+\[E] Va faire un petit t \[B7/4] our, respir\[E]e le grand a\[B7/4]ir
+\[C#m]Après je te parlerai de l'am\[B]our
+Si je me souviens un peu \[A]
 \endverse
 
 \beginchorus
 ouhhh\[E]Elle m' \[B7/4] a dit    \[E]      \[B7/4]
-\[F#m] Elle m'a dit justement c'est ce que je voudra B  is savoir
-Et j'ai dit " A  viens t'asseoir dans la \[C#m]  cabane du pécheur  D
+\[F#m] Elle m'a dit justement c'est ce que je voudra\[B]is savoir
+Et j'ai dit "\[A]  viens t'asseoir dans la \[C#m]  cabane du pécheur \[D]
 C'est un mauva A is rêve, oublie-l\[E] e !
 Tes rêves s \[F#m] ont toujours trop clair B  s ou trop noirs
-Alors  A viens faire toi-même le mélange des couleurs   \[C#m]
-Sur les murs de la cabane du pécheur   A
+Alors \[A] viens faire toi-même le mélange des couleurs   \[C#m]
+Sur les murs de la cabane du pécheur  \[A]
 Viens t'asseoir " \[E]                \[B7/4]
+\endchorus
+\beginverse
 Je lui ai dit
 Le monde est pourtant pas si loin
 On voit les lumières
@@ -103,7 +114,7 @@ Tous les bruits qu'elle veut
 Y'a sûrement quelqu'un qui écoute
 La-haut dans l'univers
 Peut-être tu demandes plus qu'il ne peut ?
-\endchorus
+\endverse
 \endsong
 
 \beginsong{Femme libérée}[by={Christian Dingler},sr={demandé par Bibi}]
@@ -694,8 +705,6 @@ Déjeuner en paix, déjeuner en paix
 \endverse
 \endsong
 
-\beginsong{Je danse le mia}[by={I am},sr={Yo yo yo yo}]
-\endsong
 
 \beginsong{Dès que le vent soufflera}[by={Renaud},sr={We did it}]
 
@@ -1216,42 +1225,868 @@ Et toujours en été
 \endchorus
 \endsong
 
+\beginsong{La corrida}[by={Francis Cabrel},sr={}]
+\beginverse
+Depuis le \[Dm]temps que je patiente dans cette c\[F]hambre noire
+J'entends qu'on s'\[C]amuse et qu'on chante au bout du c\[Bb2]ouloir.
+Quelqu'un a \[Dm]touché le verrou et j'ai pl\[F] ongé vers le grand jour
+J'ai vu les\[F]C anfares, les barrières et les gens\[Bb2] autour. \[Dm]     \[F]    \[C]    \[Bb2]
+\endverse
+\beginverse
+Dans les prem\[Dm]iers moments j'ai cru qu'il fallait \[F] seulement se défendre
+Mais cette p\[C]lace est sans issue, je commence à \[Bb2] comprendre.
+Il ont ref\[Dm]ermé derrière moi, ils ont eu p\[F] eur que je recule
+Je vais bien\[F]C inir par l'avoir cette \[Bb2] danseuse ridicule.
+\endverse
+\beginchorus
+\[Dm]     \[F]   Est-ce que ce monde est \[C]sérieux ?  \[Bb2]
+\[Dm]     \[F]   Est-ce que ce monde est \[C]sérieux ?  \[Bb2]
+\endchorus
+\beginverse
+Andalou\[Dm]sie je me souviens, les prairies \[F] bordées de cactus.
+Je ne vais pas tr\[C]embler devant ce pantin, c\[Bb2] e minus !
+Je vais l'attr\[Dm]aper lui et son chapeau, les faire tour\[F] ner comme un soleil
+Ce soir la\[C]femme du torero dormir\[Bb2]a sur ses deux oreilles.
+\endverse
+\beginchorus
+\[Dm]    \[F]  Est-ce que ce monde est \[C]sérieux ?  \[Bb2]
+\[Dm]    \[F]  Est-ce que ce monde est s\[C]érieux ?   \[Bb2]
+J'en ai pour C2 suivi des fantômes, presque touché leurs \[Dm]ballerines \[D4].    \[Dm]
+Ils ont frap\[Bb2]pé fort dans mon coup pour que je A  m'incline.\[A4]     \[A]
+Ils sortent d'\[Bb2]où ces acrobates C2 , avec leurs costume\[A4]s de papie \[D4]r ?   \[Dm]
+Je n'ai ja\[Bb2]mais appris à me battre contre des  C2 poupées\[Bb2].
+\[Dm] \[F] \[C] \[Bb2]
+\endchorus
+\beginverse
+Sentir le \[Dm]sable sous ma tête, c'est fou comme \[F]ça peut faire du bien
+J'ai prie p\[C]our que tout s'arrête, Andalousie, \[Bb2]je me souviens.
+Je les entends \[Dm]rire comme je râle, je les vois danser \[F]comme je succombe
+Je ne pensais pas q\[C]u'on puisse autant s'amuser au\[Bb2]tour d'une tombe.
+\endverse
+\beginchorus
+\[Dm]    \[F]  Est-ce que ce monde est \[C]sérieux ?  \[Bb2]
+\[Dm]    \[F]  Est-ce que ce monde est s\[C]érieux ?  \[Bb2]
+\[Dm] \[F] \[C] \[Bb2] ...
+\endchorus
+\beginverse
+Si si Hombre Hombre Baila baila Hay que bailar de nuevo
+Y mataremos otros Otras vidas, otros toros
+Y mataremos otros Venga venga bailar y mataremos otros Venga, venga a bailar...
+\endverse
+\endsong
+
+
 \beginsong{Une belle histoire}[by={Michel Fuguain},sr={}]
+\beginverse
+C'est un beau roman, c'est une belle histoire
+C'est une romance d'aujourd'hui
+Il rentrait chez lui, là-haut vers le brouillard
+Elle descendait dans le midi, le midi
+Ils se sont trouvés au bord du chemin
+Sur l'autoroute des vacances
+C'était sans doute un jour de chance
+Ils avaient le ciel à portée de main
+Un cadeau de la providence
+Alors pourquoi penser au lendemain
+\endverse
+\beginverse
+Ils se sont cachés dans un grand champ de blé
+Se laissant porter par les courants
+Se sont racontés leur vies qui commençaient
+Ils n'étaient encore que des enfants, des enfants
+Qui s'étaient trouvés au bord du chemin
+Sur l'autoroute des vacances
+C'était sans doute un jour de chance
+Qui cueillirent le ciel au creux de leurs mains
+Comme on cueille la providence
+Refusant de penser au lendemain
+\endverse
+\beginverse
+C'est un beau roman, c'est une belle histoire
+C'est une romance d'aujourd'hui
+Il rentrait chez lui, là-haut vers le brouillard
+Elle descendait dans le midi, le midi
+Ils se sont quittés au bord du matin
+Sur l'autoroute des vacances
+C'était fini le jour de chance
+Ils reprirent alors chacun leur chemin
+Saluèrent la providence en se faisant un signe de la main
+\endverse
 \endsong
 
 \beginsong{La poupée qui fait non}[by={Michel Polnareff},sr={}]
+\beginchorus
+C'est une poupée qui fait non...non...non...non...
+Toute la journée elle fait non...non..non...non...
+\endchorus
+\beginverse
+Elle est... elle est tell'ment jolie
+Que j'en rêve la nuit.
+\endverse
+\beginchorus
+C'est une poupée qui fait non...non...non...non...
+Toute la journée, elle fait non...non...non..non...
+\endchorus
+\beginverse
+Personne ne lui a jamais appris
+Qu'on pouvait dire oui.
+Non...non...non...non...
+Non...non...non...non...
+\endverse
+\beginchorus
+Sans même écouter, elle fait non...non...non...non...
+Sans même regarder, elle fait non...non...non...non...
+\endchorus
+\beginverse
+Pourtant je donnerais ma vie
+Pourqu'elle dise oui. (bis)
+\endverse
+\beginchorus
+Mais c'est une poupée qui fait non...non...non...non...
+Toute la journée elle fait non...non...non...non...
+\endchorus
+\beginverse
+Personne ne lui a jamais appris
+Que l'on peut dire oui...
+Non...non...non...non...
+Non...non...non...non...
+\endverse
 \endsong
 
 \beginsong{On ira tous au paradis}[by={Michel Polnareff},sr={}]
+\beginverse
+On ira tous au paradis mêm' moi
+Qu'on soit béni ou qu'on soit maudit, on ira
+Toutes les bonnes soeurs et tous les voleurs
+Toutes les brebis et tous les bandits
+On ira tous au paradis
+On ira tous au paradis, mêm' moi
+Qu'on soit béni ou qu'on soit maudit, on ira
+Avec les saints et les assassins
+Les femmes du monde et puis les putains
+On ira tous au paradis
+\endverse
+\beginverse
+Ne crois pas ce que les gens disent
+C'est ton coeur qui est la seule église
+Laisse un peu de vague à ton âme
+N'aie pas peur de la couleur des flammes de l'enfer
+\endverse
+\beginverse
+On ira tous au paradis, mêm' moi
+Qu'on croie en Dieu ou qu'on n'y croie pas, on ira...
+Qu'on ait fait le bien ou bien Ie mal
+On sera tous invités au bal
+On ira tous au paradis
+On ira tous au paradis, mêm' moi
+Qu'on croie en Dieu ou qu'on n'y croie pas, on ira
+Avec les chrétiens, avec les païens
+Et même les chiens et même les requins
+On ira tous au paradis
+\endverse
+\beginverse
+On ira tous au paradis, mêm' moi,
+Qu'on soit béni ou qu'on soit maudit, on ira
+Tout' les bonnes soeurs et tous les voleurs
+Tout' les brebis et tous les bandits
+On ira tous au paradis
+On ira tous au paradis, mêm' moi
+Qu'on soit béni ou qu'on soit maudit, on ira
+Tout'
+Et puis...
+Et puis...
+Et tous les...
+On ira tous au paradis
+\endverse
+\beginverse
+On ira tous au paradis, mêm' moi
+Qu'on soit béni ou qu'on soit maudit, on ira
+Tout' les bonnes soeurs et tous les voleurs
+Tout' les brebis et tous les bandits
+On ira tous au paradis...
+Surtout moi
+\endverse
 \endsong
 
 \beginsong{Emmenez moi}[by={Charles Aznavour},sr={}]
+\beginverse
+Vers les docks, où le poids et l'ennui
+Me courbent le dos
+Ils arrivent, le ventre alourdi de fruits,
+Les bateaux
+\endverse
+\beginverse
+Ils viennent du bout du monde
+Apportant avec eux des idées vagabondes
+Aux reflets de ciel bleu, de mirages
+Traînant un parfum poivré
+De pays inconnus
+Et d'éternels étés,
+Où l'on vit presque nu,
+Sur les plages
+\endverse
+\beginverse
+Moi qui n'ai connu, toute ma vie,
+Que le ciel du nord
+J'aimerais débarbouiller ce gris
+En virant de bord
+\endverse
+\beginverse
+Emmenez-moi au bout de la terre
+Emmenez-moi au pays des merveilles
+Il me semble que la misère
+Serait moins pénible au soleil
+\endverse
+\beginverse
+Dans les bars, à la tombée du jour,
+Avec les marins
+Quand on parle de filles et d'amour,
+Un verre à la main
+\endverse
+\beginverse
+Je perds la notion des choses
+Et soudain ma pensée m'enlève et me dépose
+Un merveilleux été, sur la grève
+Où je vois, tendant les bras,
+L'amour qui, comme un fou, court au devant de moi
+Et je me pends au cou de mon rêve
+\endverse
+\beginverse
+Quand les bars ferment, et que les marins
+Rejoignent leurs bords
+Moi je rêve encore jusqu'au matin,
+Debout sur le port
+\endverse
+\beginverse
+Emmenez-moi au bout de la terre
+Emmenez-moi au pays des merveilles
+Il me semble que la misère
+Serait moins pénible au soleil
+\endverse
+\beginverse
+Un beau jour, sur un raffiot craquant
+De la coque au pont
+Pour partir, je travaillerai dans
+La soute à charbon
+\endverse
+\beginverse
+Prenant la route qui mène
+A mes rêves d'enfant, sur des îles lointaines,
+Où rien n'est important que de vivre
+Où les filles alanguies
+Vous ravissent le coeur en tressant, m'a-t-on dit
+De ces colliers de fleurs qui enivrent
+\endverse
+\beginverse
+Je fuirai, laissant là mon passé,
+Sans aucun remords
+Sans bagage et le coeur libéré,
+En chantant très fort
+\endverse
+\beginverse
+Emmenez-moi au bout de la terre
+Emmenez-moi au pays des merveilles
+Il me semble que la misère
+Serait moins pénible au soleil
+\endverse
+\beginverse
+Emmenez-moi au bout de la terre
+Emmenez-moi au pays des merveilles
+Il me semble que la misère
+Serait moins pénible au soleil
+\endverse
 \endsong
 
 \beginsong{La bombe humaine}[by={Téléphone},sr={}]
+\beginverse
+Je veux vous parler de l'arme de demain
+Enfantée du monde elle en sera la fin
+Je veux vous parler de moi, de vous
+Je vois a l'intérieur des images, des couleurs
+Qui ne sont pas a moi qui parfois me font peur
+Sensations qui peuvent me rendre fou
+Nos sens sont nos fils nous pauvres marionnettes
+Nos sens sont le chemin qui mène droit a nos têtes
+\endverse
+\beginverse
+La bombe humaine tu la tiens dans ta main
+Tu as l'détonateur juste à côté du cœur
+La bombe humaine c'est toi elle t'appartient
+Si tu laisses quelqu'un prendre en main ton destin
+C'est la fin, hum la fin, hum la fin, hum la fin
+\endverse
+\beginverse
+Mon père ne dort plus sans prendre ses calmants
+Maman ne travaille plus sans ses excitants
+Quelqu'un leur vend de quoi tenir le coup
+Je suis un électron bombardé de protons
+Le rythme de la ville c'est ça mon vrai patron
+\endverse
+\beginverse
+Je suis chargé d'électricité
+Si par malheur au cœur de l'accélérateur
+J'rencontre une particule qui m'mette de sale humeur
+Oh non, faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+Faudrait pas que j'me laisse aller
+\endverse
+\beginverse
+La bombe humaine c'est l'arme de demain
+Enfantée du monde elle en sera la fin
+La bombe humaine c'est toi elle t'appartient
+Si tu laisses quelqu'un prendre en main ton destin
+C'est la fin
+\endverse
+\beginverse
+La bombe humaine, tu la tiens dans ta main
+Tu as l'détonateur juste à côtée du cœur
+La bombe humaine, c'est toi elle t'appartient
+Si tu laisses quelqu'un prendre ce qui te tient
+C'est...
+\endverse
+\beginverse
+La bombe humaine, tu la tiens dans ta main
+Tu as l'détonateur juste a cote du cœur
+La bombe humaine, c'est toi elle t'appartient
+Si tu laisses quelqu'un prendre en main ton destin
+C'est...
+\endverse
+\beginverse
+La bombe humaine c'est l'arme de demain
+La bombe humaine c'est toi elle t'appartient
+La bombe humaine, tu la tiens dans ta main
+Si tu laisses quelqu'un prendre ce qui te tient
+C'est...
+\endverse
+\beginverse
+La bombe humaine c'est l'arme de demain
+La bombe humaine c'est toi elle t'appartient
+La bombe humaine, tu la tiens dans ta main
+Si tu laisses quelqu'un prendre ce qui te tient
+C'est la...
+\endverse
 \endsong
 
 \beginsong{Temps à nouveau}[by={Jean-Louis Aubert},sr={}]
+\beginverse
+Puisque les dauphins sont des rois
+Que seul le silence s'impose
+Puisqu'il revient à qui de droit
+De tenter les métamorphoses
+Puisque les révolutions,
+Se font maintenant à la maison
+Et que lorsque le monde implose
+Ce n'est qu'une nouvelle émission
+Émission
+\endverse
+\beginverse
+Il est temps à nouveau
+Oh temps à nouveau
+De prendre le souffle à nouveau
+Il est temps à nouveau
+Oh temps à nouveau
+De nous jeter à l'eau
+\endverse
+\beginverse
+Puisque ce n'est plus qu'un système
+Et sa police américaine
+De monde meilleur on ne parle plus
+Tout juste sauver celui-là, celui-là
+\endverse
+\beginverse
+Eh ! Il est temps à nouveau
+Oh temps à nouveau
+De prendre le souffle à nouveau
+Il est temps à nouveau
+Oh temps à nouveau
+De nous jeter à l'eau
+De nous jeter à l'eau
+\endverse
+\beginverse
+Puisque je suis mon aquarium
+Moi le poison, moi le poisson
+Changé en homme
+\endverse
+\beginverse
+Il est temps à nouveau
+Oh temps à nouveau
+De prendre le souffle à nouveau
+Il est temps à nouveau
+Oh temps à nouveau
+De me jeter à l'eau
+Oh temps à nouveau
+Oh temps à nouveau
+De prendre le souffle à nouveau
+Il est temps à nouveau
+Oh temps à nouveau
+De nous jeter à l'eau
+\endverse
+\beginverse
+Beau temps pour se jeter à l'eau
+Beau temps pour se jeter à l'eau
+Beau temps pour se jeter à l'eau
+Beau temps pour se jeter à l'eau
+\endverse
+\beginverse
+Oh temps à nouveau
+Temps à nouveau
+Temps à nouveau
+Oh ! Temps à nouveau
+De nous jeter à l'eau
+Oh temps à nouveau
+De nous jeter à l'eau
+Oh temps à nouveau
+De nous jeter à l'eau
+\endverse
 \endsong
 
 \beginsong{Rock Collection}[by={Laurent Voulzy},sr={}]
+\beginverse
+On a tous dans l'coeur une petite fille oubliée
+Une jupe plissée queue d'cheval à la sortie du lycée
+On a tous dans l'coeur un morceau de fer à user
+Un vieux scooter de reve pour faire le cirque dans le
+quartier
+Et la p'tite fille chantait
+Et la p'tite fille chantait
+Un truc qui m'colle encore au coeur et au corps
+[Locomotion]
+"Everybody's doing a brand new dance now
+C'm'on baby do the locomotion..."
+\endverse
+\beginverse
+On a tous dans l'coeur le ticket pour Liverpool
+Sortie de scène hélicoptère pour échapper
+à la foule
+Excuse-me Sir mais j'entends plus Big Ben qui sonne
+Les scarabées bourdonnent c'est la folie à London
+Et les Beatles chantaient
+Et les Beatles chantaient
+Un truc qui m'colle'encore au coeur et au corps
+[Hard day's night]
+"It's been a hard day's night
+And I've been workin' like a dog
+It's been a hard day's night, yeah, yeah, yeah
+Yeah..."
+\endverse
+\beginverse
+A quoi ca va me servir d'aller m'faire couper les tifs
+Est-ce que ma vie sera mieux une fois qu'j'aurais mon
+certif'
+Betty a rigolé devant ma boule à zéro
+Je lui dis si ca te plaît pas
+T'as qu'à te plaindre au dirlo
+Et je me suis fait virer
+Et les Beach Boys chantaient
+Un truc qui m'colle encore au coeur et au corps
+[Get around]
+"Round round get around, I get around
+Yeah, get around, ooohh, round round I get around
+Get around, get around, get around..."
+\endverse
+\beginverse
+On a tous dans l'coeur des vacances à Saint-Malo
+Et des parents en maillot qui dansent chez Luis Mariano
+Au " Camping des flots bleus ", je me traîne des
+tonnes de cafard
+Si j'avais bossé un peu je me serais payé une guitare
+Et Saint-Malo dormait
+Et les radios chantaient
+Un truc qui m'colle encore au coeur et au corps
+[Gloria]
+"Gloria G L O R I A Gloria G L O R I A Gloria Gloria..."
+\endverse
+\beginverse
+Au café de ma banlieue t'as vu la bande à Jimmy
+Ça frime pas mal, ca roule autour du baby
+Le pauvre Jimmy s'est fait piquer chez le disquaire, c'est
+dingue
+Avec un single des Stones caché sous ses fringues
+Et les loulous roulaient
+Et les cailloux chantaient
+Un truc qui m'colle encore au coeur et au corps
+[Satisfaction]
+"I can't get no, I can't get no satisfaction, hey hey hey!"
+\endverse
+\beginverse
+Le jour où je vais partir je sens bien que ca va faire
+mal
+Ma mère n'aime pas mon blouson et les franges de mon futal
+Le long des autoroutes il y a de beaux paysages
+J'ai ma guitare dans le dos et pas de rond pour le voyage
+Et Bob Dylan chantait
+Et Bob Dylan chantait
+Un truc qui m'colle encore au coeur et au corps
+[Mister Tambourine man]
+\endverse
+\beginverse
+Laissez-moi passer j'ai mes papiers mon visa
+Je suis déjà dans l'avion going to America
+Meme si je reste ici que je passe ma vie à Nogent
+J'aurai une vieille Chevrolet et dix huit filles dedans
+Et les Bee Gees chantaient
+Et les Bee Gees chantaient
+[Massachusetts]
+\endverse
+\beginverse
+Au printemps 66 je suis tombé fou amoureux
+Ça m'a fait plutot mal j'avais de l'eau dans les yeux
+Ma p' tite poupée je t'emmène dans le pays de mes
+langueurs
+Elle fait douceur douceur la musique que j'ai dans le coeur
+Toute la nuit on s'aimait
+Quand Donovan chantait
+Un truc qui m'colle encore au coeur et au corps
+[Mellow Yellow]
+\endverse
+\beginverse
+Maintenant j'ai une guitare et je voyage organisé
+Je me lève tous les jours trop tard
+Et je vis aux Champs-Elysées
+Je suis parti je ne sais où mais pas où je voulais aller
+Dans ma tete y a des trous je me souviens plus des couplets
+Y a des reves qui sont cassés
+Des airs qui partent en fumée
+Des trucs qui m'colle encore au coeur et au corps
+[California dreaming]
+\endverse
 \endsong
 
 \beginsong{Morgane de toi}[by={Renaud},sr={}]
+\beginverse
+Y'a un mariole, qu'y'a au moins quatre ans
+Y veut t'piquer ta pelle et ton seau
+Ta couche-culotte avec les bombecs dedans
+Lolita défends-toi, fous-y un coup d'rateau dans l'dos
+\endverse
+\beginverse
+Attends un peu avant d'te faire emmerder
+Parces p'tits machos qui pensent qu'à une chose
+Jouer au docteur non conventionné
+J'y ai joué aussi je sais de quoi j'cause
+\endverse
+\beginverse
+J'les connais bien les playboys des bacs à sable
+J'draguais leurs mères avant d'connaître la tienne
+Si tu les écoutes y t'f'ront porter leurs cartables
+'reus'ment qu'j'suis là que j'te r'garde et que j't'aime
+\endverse
+\beginchorus
+Lola
+J'suis qu'un fantôme quand tu vas où j'suis pas
+Tu sais ma môme que j'suis morgane de toi
+\endchorus
+\beginverse
+Comme j'en ai marre de m'faire tatouer des machins
+Qui m'font comme une bande dessinée sur la peau
+J'ai écrit ton nom avec des clous dorés un par un
+Plantés dans le cuir de mon blouson dans l'dos
+\endverse
+\beginverse
+T'es la seule gonzesse que j'peux t'nir dans mes bras
+Sans m'démettre une épaule sans plier sous ton poids
+Tu pèses moins lourd qu'un moineau qui mange pas
+Déploie jamais tes ailes, Lolita t'envole pas
+\endverse
+\beginverse
+Avec tes miches de rat qu'on dirait des noisettes
+Et ta peau plus sucrée qu'un pain au chocolat
+Tu risques d'donner faim à un tas de p'tits mecs
+Quand t'iras à l'école si jamais t'y vas
+\endverse
+\beginverse
+Qu'ess-tu m'racontes ? Tu veux un petit frangin ?
+Tu veux qu'j't'achète un ami pierrot ?
+Eh ! Les bébés ça s'trouve pas dans les magasins et j'crois pas
+Que ta mère voudra qu'j'lui fasse un petit dans l'dos
+\endverse
+\beginverse
+Ben quoi Lola on est pas bien ensemble ?
+Tu crois pas qu'on est déjà bien assez nombreux ?
+T'entends pas ce bruit c'est le monde qui tremble
+Sous les cris des enfants qui sont malheureux
+\endverse
+\beginverse
+Allez viens avec moi j't'embarque dans ma galère
+Dans mon arche y'a d'la place pour tous les marmots
+Avant qu'ce monde devienne un grand cimetière
+Faut profiter un peu du vent qu'on a dans l'dos
+\endverse
 \endsong
 
 \beginsong{La Mer}[by={Charles Trenet},sr={}]
+\beginverse
+La mer
+qu'on voit danser le long des golfes clairs
+a des reflets d'argent,
+la mer,
+des reflets changeants
+sous la pluie.
+\endverse
+\beginverse
+La mer
+au ciel d'été confond
+ses blancs moutons
+avec les anges si purs,
+la mer bergère d'azur
+infinie.
+\endverse
+\beginverse
+Voyez,
+près des étangs,
+ces grands roseaux mouillés.
+Voyez,
+ces oiseaux blancs
+et ces maisons rouillées.
+\endverse
+\beginverse
+La mer
+les a bercés
+le long des golfes clairs
+et d'une chanson d'amour,
+la mer
+a bercé mon cœur pour la vie
+\endverse
 \endsong
 
 \beginsong{Laisse béton}[by={Renaud},sr={}]
+\beginverse
+J’étais tranquille, j'étais peinard
+accoudé au flipper,
+le type est entré dans le bar,
+a commandé un jambon-beurre,
+puis il s'est approché de moi,
+pi y m'a regardé comme ça :
+T'as des bottes, mon pote, elles me bottent !
+j'parie qu'c'est des santiags,
+viens faire un tour dans l'terrain vague,
+j'vais t'apprendre un jeu rigolo
+à grands coups de chaine de vélo
+j'te fais tes bottes à la baston !
+moi j'y ai dit :
+Laisse béton !
+\endverse
+\beginchorus
+Y m'a filé un beigne, j'y ai filé une torgnole,
+m'a filé une châtaigne, j'lui ai filé mes grolles.
+\endchorus
+\beginverse
+j'étais tranquille, j'étais peinard.
+accoudé au comptoir,
+le type est entré dans le bar,
+a commandé un café noir,
+puis il m'a tapé sur l'épaule
+et m'a regardé d'un air drôle :
+T'as un blouson, mecton l'est pas bidon !
+moi j'me les gèle sur mon scooter,
+avec ça j's'rai un vrai rocker,
+viens faire un tour dans la ruelle.
+j'te montrerai mon Opinel,
+et j'te chourav'rai ton blouson ! Moi j'y ai dit :
+Laisse béton !
+\endverse
+\beginchorus
+Y m'a filé une beigne, j'y ai filé un marron,
+m'a filé une châtaigne, j'y ai filé mon blouson.
+\endchorus
+\beginverse
+J’étais tranquille, j'étais peinard,
+je réparais ma mobylette,
+le type a surgi sur l'boul'vard
+sur sa grosse moto super-chouette,
+s'est arrêté l'long du trottoir
+et m'a regardé d'un air bête :
+T'as l'même blue-jean que James Dean,
+t'arrête ta frime !
+j'parie qu'c'est un vrai Lévi Strauss,
+il est carrément pas craignoss,
+viens faire un tour derrière l'église,
+histoire que je te dévalise
+à grands coups de ceinturon ! Moi j'y ai dit :
+Laisse béton !
+\endverse
+\beginchorus
+Y m'a filé une beigne, j'ai filé une mandale,
+m'a filé une châtaigne, j'y ai filé mon futal.
+\endchorus
+\beginverse
+La morale de c'te pauvre histoire,
+c'est qu'quand t'es tranquille et peinard
+faut pas trop traîner dans les bars,
+à moins d'être fringué en costard.
+Quand à la fin d'une chanson,
+tu t'retrouves à poil sans tes bottes.
+faut avoir d'l'imagination
+pour trouver une chute rigolote.
+\endverse
 \endsong
 
 \beginsong{Il y a}[by={JJG},sr={}]
+\beginverse
+Il y a
+Du thym de la bruyère
+Et des bois de pin
+Rien de bien malin
+Il y a
+Des ruisseaux, des clairières
+Pas de quoi en faire
+Un plat de ce coin
+\endverse
+\beginverse
+Il y a
+Des odeurs de menthe
+Et des cheminées
+Et des feux dedans
+Il y a
+Des jours et des nuits lentes
+Et l'histoire absente
+Banalement
+\endverse
+\beginchorus
+Et loin de tout, loin de moi
+C'est là que tu te sens chez toi
+De là que tu pars, ou tu reviens chaque fois
+Et où tout finira
+\endchorus
+\beginverse
+Il y a
+Des enfants, des grands-mères
+Une petite église
+Et un grand café
+Il y a
+Au fond du cimetière
+Des joies, des misères
+Et du temps passé
+Il y a
+Une petite école
+Et des bancs de bois
+Tout comme autrefois
+Il y a
+Des images qui collent
+Au bout de tes doigts
+Et ton coeur qui bat
+\endverse
+\beginchorus
+Et loin de tout, loin de moi
+C'est là que tu te sens chez toi
+De là que tu pars, où tu reviens chaque fois
+Et où tout finira
+\endchorus
+\beginverse
+Et plus la terre est aride, et plus cet amour est grand
+Comme un mineur à sa mine, un marin à son océan
+Plus la nature est ingrate, avide de sueur et de boue
+Parce qu'on a tant besoin que l'on ait besoin de nous
+Elle porte les stigmates de leur peine et de leur sang
+Comme un mère préfère un peu son plus fragile enfant
+\endverse
+\beginchorus
+Et loin de tout, loin de moi
+C'est là que tu te sens chez toi
+De là que tu pars, où tu reviens chaque fois
+Et où tout finira
+\endchorus
 \endsong
 
-\beginsong{Les Corons}[by={Bachelet},sr={}]
+\beginsong{Les Corons}[by={Pierre Bachelet},sr={}]
+\beginchorus
+Au nord, c'étaient les corons
+La terre c'était le charbon
+Le ciel c'était l'horizon
+Les hommes des mineurs de fond
+\endchorus
+\beginverse
+Nos fenêtres donnaient sur des f'nêtres semblables
+Et la pluie mouillait mon cartable
+Mais mon père en rentrant avait les yeux si bleus
+Que je croyais voir le ciel bleu
+J'apprenais mes leçons, la joue contre son bras
+Je crois qu'il était fier de moi
+Il était généreux comme ceux du pays
+Et je lui dois ce que je suis
+\endverse
+\beginchorus
+Au nord, c'étaient les corons
+La terre c'était le charbon
+Le ciel c'était l'horizon
+Les hommes des mineurs de fond
+\endchorus
+\beginverse
+Et c'était mon enfance, et elle était heureuse
+Dans la buée des lessiveuses
+Et j'avais des terrils à défaut de montagnes
+D'en haut je voyais la campagne
+Mon père était "gueule noire" comme l'étaient ses parents
+Ma mère avait les cheveux blancs
+Ils étaient de la fosse, comme on est d'un pays
+Grâce à eux je sais qui je suis
+\endverse
+\beginchorus
+Au nord, c'étaient les corons
+La terre c'était le charbon
+Le ciel c'était l'horizon
+Les hommes des mineurs de fond
+\endchorus
+\beginverse
+Y avait à la mairie le jour de la kermesse
+Une photo de Jean Jaures
+Et chaque verre de vin était un diamant rose
+Posé sur fond de silicose
+Ils parlaient de 36 et des coups de grisou
+Des accidents du fond du trou
+Ils aimaient leur métier comme on aime un pays
+C'est avec eux que j'ai compris
+\endverse
+\beginchorus
+Au nord, c'étaient les corons
+La terre c'était le charbon
+Le ciel c'était l'horizon
+Les hommes des mineurs de fond
+\endchorus
 \endsong
 
+\beginsong{Mélissa}[by={Julien Clerc},sr={}]
+\beginverse
+Mélissa métisse d'Ibiza vit toujours dévétue
+Dites jamais que je vous ai dit ça ou Mélissa me tue
+Le matin derrière ses canisses A-Lors qu'elle est moitié nue
+Sur les murs devant chez Mélissa y'a tout plein d'inconnus
+"Descendez ça c'est défendu! Oh c'est indécent!"
+Elle crie mais bien entendu personne ne descend
+\endverse
+\beginverse
+Sous la soie de sa jupe fendue en zoom en gros plan
+Tout un tas d'individus fiment noirs et blancs
+Mélissa, métisse d'Ibiza a des seins tous pointus
+Dites jamais que je vous ai dit ça ou Mélissa me tue
+"Descendez ça c'est défendu! Mater chez les gens"
+Elle crie mais bien entendu y'a jamais d'agent
+\endverse
+\beginverse
+Elle crie c'est du temps perdu personne ne l'entend
+La police c'est tout des vendus dix ans qu'elle attend
+Mélissa, métisse d'Ibiza a toujours sa vertu
+Dites jamais que je vous ai dit ça ou Mélissa me tue
+\endverse
+\beginverse
+Ouh! Matez ma métisse, ouh! Ma métisse est nue
+Ouh! Matez ma métisse, ouh! Ma métisse est nue
+Mélissa métisse d'Ibiza vit toujours dévétue
+Dites jamais que je vous ai dit ça je vous ai jamais vu
+Le matin derrière ses canisses A-Lors je vends des longues
+vues
+Mais si jamais Mélissa sait ça là c'est moi qui vous tue
+\endverse
+\beginverse
+Ouh! Matez ma métisse, ouh! Ma métisse est nue
+Ouh! Matez ma métisse, ouh! Ma métisse est nue...
+\endverse
+\endsong
 
 \end{songs}
 \end{document}
