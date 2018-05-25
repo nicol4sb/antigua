@@ -1,4 +1,0 @@
-To generate the PDF of this songbook, get LaTeX and run the command below
-pdftex Antigua.tex
-
-Check the "songs" LaTeX package at http://songs.sourceforge.net/songsdoc/songs.html it's awesome.
